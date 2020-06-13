@@ -1,0 +1,49 @@
+object frmMessageBox: TfrmMessageBox
+  Left = 445
+  Top = 339
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  ClientHeight = 107
+  ClientWidth = 346
+  Color = clBtnFace
+  DefaultMonitor = dmPrimary
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -19
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = True
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 23
+  object lblText: TLabel
+    Left = 60
+    Top = 20
+    Width = 55
+    Height = 23
+    Caption = 'lblText'
+    ShowAccelChar = False
+  end
+  object imgIcon: TImage
+    Left = 10
+    Top = 10
+    Width = 32
+    Height = 32
+    Center = True
+    Stretch = True
+  end
+  object stText: TStaticText
+    Left = 0
+    Top = 0
+    Width = 0
+    Height = 0
+    AutoSize = False
+    Caption = 'stText'
+    Enabled = False
+    TabOrder = 0
+  end
+end
